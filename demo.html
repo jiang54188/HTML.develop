@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh - CN">
+
+<head>
+    <title>全国养老信息服务平台</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .father{ 
+            margin: 0;
+            padding: 0;
+            background-image: url('11.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            min-width: 10px; /* 设置背景图片的最小宽度 */
+            min-height: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* 将内容靠左对齐 */ 
+            justify-content: flex-start; /* 将内容靠上对齐 */ 
+            height: 100vh;
+            background-attachment: fixed; 
+            padding: 20px; /* 添加填充，使内容不贴边 */
+            padding-top: 188px; /* 添加顶部填充，使内容稍微向下移动 */
+        .son {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0); /* 设置半透明背景以提高可读性 */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .nav-item {
+            margin: 10px;
+        }
+        .nav-item a {
+            text-decoration: none;
+            color: #7b0000;
+            font-size: 1.8em;
+        }
+        /* Media Query for smaller screens */ 
+        @media (max-width: 800px) { 
+            .father { background-size: contain; /* 在小屏幕时，背景图片按比例缩放 */
+            }
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header>
+        <div class="father">
+            <nav>
+                <div class="son">
+                <div class="nav-item" id="home"><a href="#">首页</a></div>
+                <div class="nav-item" id="policy"><a href="#">政策咨询</a></div>
+                <div class="nav-item" id="service"><a href="#">服务查询</a></div>
+                <div class="nav-item" id="online"><a href="#">在线办理</a></div>
+                <div class="nav-item" id="map"><a href="#">养老地图</a></div>
+                <div class="nav-item" id="service-elderly"><a href="#">养老服务</a></div>
+                </div>
+               
+            </nav>
+    <div class="search-bar">
+            <input type="search" placeholder="请输入搜索内容">
+        </div>
+    </div>
+    </header>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <div class="content">
+            <h3>热点服务</h3>
+            <ul>
+                困难老年人集中照护补贴
+                机构备案申请
+                养老机构等级评定申请
+                高龄津贴
+                入住养老机构预约
+            </ul>
+        </div>
+
+        <h3>服务查询</h3>
+        <table>
+            <tr>
+                <th>机构养老服务</th>
+                <th>社区养老服务</th>
+                <th>养老服务助餐点查询</th>
+                <th>居家养老上门服务</th>
+            </tr>
+        </table>
+
+        <h3>在线办理</h3>
+        <table>
+            <tr>
+                <th>个人事项</th>
+                <th>机构事项</th>
+                <th>办事指南</th>
+            </tr>
+            <tr>
+                <td>困难老年人集中照护补贴</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>高龄补贴</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>入住养老机构预约</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </main>
+
+    <!-- 侧边栏区域（可选） -->
+    <aside>
+        <!-- 侧边栏内容，如相关链接、广告等 -->
+    </aside>
+
+    <!-- 页脚区域 -->
+    <footer>
+        <!-- 页脚内容，如版权信息、联系方式等 -->
+    </footer>
+
+    <!-- 引入外部JavaScript文件，这里假设script.js存在 -->
+    <script src="script.js"></script>
+</body>
+
+</html>

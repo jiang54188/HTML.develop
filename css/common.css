@@ -1,0 +1,88 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1080px;
+}
+/*导航栏 */
+.shortcut {
+    display: flex;
+    justify-content: space-between; /* 将子元素分别靠左和靠右对齐 */
+    height: 120px;
+    background-color: #ff9797cb;
+}
+
+.shortcut .wrapper {
+    display: flex;
+    justify-content: space-between; /* 将子元素分别靠左和靠右对齐 */
+}
+
+.shortcut .wrapper .former {
+    display: flex;
+    justify-content: flex-start;
+    height: 120px;
+}
+
+.shortcut .wrapper .former u2 {
+    display: flex;
+    line-height: 120px;
+}
+
+.shortcut .former li a {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../images/logo.png);
+}
+
+.shortcut .former li b{
+    padding: 0 8px;
+    font-size: 55px;
+    color: #1b1b1b;
+}
+
+.shortcut .wrapper .back {
+    display: flex;
+    justify-content: flex-end;
+    height: 120px;
+    /*background-color: #ffdf9b;*/
+}
+
+.shortcut .wrapper .back ul {
+    display: flex;
+    line-height: 120px;
+}
+
+.shortcut .back li a {
+    padding: 0 15px;
+    border-right: #cb8282 1px solid;
+    font-size: 26px;
+    color: #b00000;
+}
+
+.shortcut .back li:last-child a {
+    border-right: none;
+}
+
+.middle {
+    display: flex;
+    margin-top: 18.8px;
+    margin-bottom: 18.8px;
+    height: 188px;
+    background-color: #ffe7e7;
+}
+
+/*{
+    display: flex;
+    justify-content: flex-start;
+    height: 120px;
+    /*background-color: #ffdf9b;*/
+/*.middle ul{
+    display: flex;
+    line-height: 120px;
+}
+
+.middle li i{
+    display: flex;
+    padding: 0 20px;
+    font-size: 38px;
+    color: #b00000;
+}

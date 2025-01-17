@@ -5,8 +5,6 @@
 }
 /*导航栏 通栏样式*/
 .shortcut {
-    display: flex;
-    justify-content: space-between; /* 将子元素分别靠左和靠右对齐 */
     height: 120px;
     background-color: #ff9797cb;
 }
@@ -32,6 +30,7 @@
     width: 56px;
     height: 56px;
     background-image: url(../images/logo.png);
+    font-size: 0;
 }
 /*平台名称*/
 .shortcut .former li b{
@@ -63,3 +62,31 @@
     border-right: none;
 }
 /*导航栏右边字体结束*/
+
+/*首页行*/
+.middle {
+    height: 120px;
+}
+
+.middle .wrapper {
+    display: flex;
+    justify-content: flex-start; /* 将子元素分别靠左和靠右对齐 */
+}
+
+.middle .wrapper  {
+    display: flex;
+    justify-content: flex-start;
+    height: 120px;
+    /*background-color: #ffdf9b;*/
+}
+
+.middle .wrapper ul {
+    display: flex;
+    line-height: 120px;
+}
+
+.middle li a {
+    padding: 0 18.8px;
+    font-size: 38px;
+    color: #7d0202;
+}

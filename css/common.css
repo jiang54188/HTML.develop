@@ -1,44 +1,45 @@
+/*版心样式*/
 .wrapper{
     margin: 0 auto;
     width: 1080px;
 }
-/*导航栏 */
+/*导航栏 通栏样式*/
 .shortcut {
     display: flex;
     justify-content: space-between; /* 将子元素分别靠左和靠右对齐 */
     height: 120px;
     background-color: #ff9797cb;
 }
-
+/*导航栏版心元素靠左右*/
 .shortcut .wrapper {
     display: flex;
     justify-content: space-between; /* 将子元素分别靠左和靠右对齐 */
 }
-
+/*logo及平台名称靠左*/
 .shortcut .wrapper .former {
     display: flex;
     justify-content: flex-start;
     height: 120px;
 }
-
+/*logo高度*/
 .shortcut .wrapper .former u2 {
     display: flex;
     line-height: 120px;
 }
-
+/*logo*/
 .shortcut .former li a {
     display: block;
     width: 56px;
     height: 56px;
     background-image: url(../images/logo.png);
 }
-
+/*平台名称*/
 .shortcut .former li b{
     padding: 0 8px;
     font-size: 55px;
     color: #1b1b1b;
 }
-
+/*导航栏右边字体开始*/
 .shortcut .wrapper .back {
     display: flex;
     justify-content: flex-end;
@@ -61,28 +62,4 @@
 .shortcut .back li:last-child a {
     border-right: none;
 }
-
-.middle {
-    display: flex;
-    margin-top: 18.8px;
-    margin-bottom: 18.8px;
-    height: 188px;
-    background-color: #ffe7e7;
-}
-
-/*{
-    display: flex;
-    justify-content: flex-start;
-    height: 120px;
-    /*background-color: #ffdf9b;*/
-/*.middle ul{
-    display: flex;
-    line-height: 120px;
-}
-
-.middle li i{
-    display: flex;
-    padding: 0 20px;
-    font-size: 38px;
-    color: #b00000;
-}
+/*导航栏右边字体结束*/
